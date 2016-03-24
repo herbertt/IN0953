@@ -13,7 +13,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-
+/**
+ * Parser of Rest NGSI  protocol 
+ * parse rest to object
+ * 
+ * @author Herbertt Diniz
+ */
 public class AdapterOcurrence {
     
     public static Entity parseEntity(String s) {
